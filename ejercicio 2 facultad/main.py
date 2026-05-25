@@ -1,7 +1,7 @@
 
-from facultad import Facultad, FacultadError
-from estudiante import Estudiante
-from curso import Curso
+from modulos.facultad import Facultad, FacultadError
+from modulos.estudiante import Estudiante
+from modulos.curso import Curso
 
 
 def mostrarMenu() -> None:

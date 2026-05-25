@@ -1,6 +1,6 @@
-from biblioteca import Biblioteca, BibliotecaError
-from libro import Libro
-from miembro import Miembro
+from modulos.biblioteca import Biblioteca, BibliotecaError
+from modulos.libro import Libro
+from modulos.miembro import Miembro
 
 
 def mostrarMenu() -> None:
