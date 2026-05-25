@@ -1,5 +1,5 @@
 
-from libro import Libro
+from modulos.libro import Libro
 
 class Miembro:
     def __init__(self, dni: str, nombre: str) -> None:

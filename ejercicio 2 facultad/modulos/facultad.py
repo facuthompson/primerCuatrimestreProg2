@@ -1,6 +1,6 @@
 
-from estudiante import Estudiante
-from curso import Curso
+from modulos.estudiante import Estudiante
+from modulos.curso import Curso
 
 
 class FacultadError(Exception):

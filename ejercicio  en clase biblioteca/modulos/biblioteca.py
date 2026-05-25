@@ -1,5 +1,5 @@
-from libro import Libro
-from miembro import Miembro
+from modulos.libro import Libro
+from modulos.miembro import Miembro
 
 
 class BibliotecaError(Exception):
