@@ -1,6 +1,5 @@
 
 class Curso:
-
     def __init__(self, nombre: str, codigo: str, profesor: str, capacidad: int) -> None:
         self.__nombre     = nombre
         self.__codigo     = codigo
